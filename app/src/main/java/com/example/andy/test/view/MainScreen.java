@@ -1,4 +1,4 @@
-package com.example.andy.test;
+package com.example.andy.test.view;
 
 import android.os.Bundle;
 import android.content.Intent;
@@ -8,6 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.andy.test.R;
+import com.example.andy.test.model.Survey;
 
 public class MainScreen extends AppCompatActivity {
 
