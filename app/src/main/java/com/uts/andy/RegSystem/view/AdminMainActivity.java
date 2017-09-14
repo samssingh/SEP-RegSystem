@@ -1,5 +1,6 @@
 package com.uts.andy.RegSystem.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -13,7 +14,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.uts.andy.RegSystem.Fragments.AdminFunctionOneFragment;
 import com.uts.andy.RegSystem.Fragments.AdminFunctionThreeFragment;
 import com.uts.andy.RegSystem.Fragments.AdminFunctionTwoFragment;
@@ -24,6 +27,7 @@ public class AdminMainActivity extends AppCompatActivity {
     private DrawerLayout drawer;
     private View navHeader;
     private Toolbar toolbar;
+    private TextView navHeadEmail;
 
     public static int navItemIndex = 0;
 
@@ -34,6 +38,7 @@ public class AdminMainActivity extends AppCompatActivity {
 
     private String[] activityTitles;
 
+    private FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,6 +59,11 @@ public class AdminMainActivity extends AppCompatActivity {
             navItemIndex = 0;
             CURRENT_TAG = TAG_ONE;
             loadFragment();
+        }
+
+        navHeadEmail = (TextView) findViewById(R.id.textView_email);
+        if (firebaseAuth.getCurrentUser() != null){
+            //navHeadEmail.setText(firebaseAuth.getCurrentUser().getEmail());
         }
     }
 
@@ -162,6 +172,9 @@ public class AdminMainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            firebaseAuth.signOut();
+            startActivity(new Intent(AdminMainActivity.this, EntryActivity.class));
+            finish();
             return true;
         }
 
