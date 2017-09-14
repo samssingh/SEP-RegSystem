@@ -1,4 +1,4 @@
-package com.example.andy.test.view;
+package com.uts.andy.RegSystem.view;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -14,10 +14,10 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.andy.test.Fragments.AdminFunctionOneFragment;
-import com.example.andy.test.Fragments.AdminFunctionThreeFragment;
-import com.example.andy.test.Fragments.AdminFunctionTwoFragment;
-import com.example.andy.test.R;
+import com.uts.andy.RegSystem.Fragments.AdminFunctionOneFragment;
+import com.uts.andy.RegSystem.Fragments.AdminFunctionThreeFragment;
+import com.uts.andy.RegSystem.Fragments.AdminFunctionTwoFragment;
+import com.uts.andy.RegSystem.R;
 
 public class AdminMainActivity extends AppCompatActivity {
     private NavigationView navigationView;

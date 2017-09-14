@@ -1,4 +1,4 @@
-package com.example.andy.test;
+package com.uts.andy.RegSystem;
 
 import org.junit.Test;
 
