@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="com.example.andy.test.view.MainActivity">
+    android:id="@+id/coordinatorLayout"
+    tools:context="com.uts.andy.RegSystem.view.EntryActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -21,6 +21,8 @@
 
     </android.support.design.widget.AppBarLayout>
 
+    <include layout="@layout/content_entry" />
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -29,6 +31,7 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
+<<<<<<< HEAD:app/src/main/res/layout/activity_main.xml
     <include layout="@layout/content_main"
         android:layout_height="287dp"
         android:id="@+id/include" />
@@ -56,4 +59,6 @@
             android:textSize="18sp" />
     </RelativeLayout>
 
+=======
+>>>>>>> 19dfea0f7def249cfca8b368fd7ae126bd7b6b18:app/src/main/res/layout/activity_entry.xml
 </android.support.design.widget.CoordinatorLayout>
