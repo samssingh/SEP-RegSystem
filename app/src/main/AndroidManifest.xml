@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.uts.andy.RegSystem">
+    package="com.example.andy.test">
 
     <application
         android:allowBackup="true"
@@ -9,17 +9,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".view.AdminMainActivity"
+            android:name=".view.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-<<<<<<< HEAD
             android:name=".view.MainScreen"
             android:label="@string/title_activity_main_screen"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -31,17 +30,6 @@
         <activity android:name=".Activities.SurveyActivity.Q3Activity" android:exported="true"/>
         <activity android:name=".Activities.StudentActivity" />
         <activity android:name=".Activities.RecruiterActivity"></activity>
-=======
-            android:name=".view.EntryActivity"
-            android:label="@string/title_activity_entry"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
->>>>>>> 19dfea0f7def249cfca8b368fd7ae126bd7b6b18
     </application>
 
 </manifest>
