@@ -1,4 +1,4 @@
-package com.example.andy.test;
+package com.uts.andy.RegSystem;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.andy.test", appContext.getPackageName());
+        assertEquals("com.uts.andy.RegSystem", appContext.getPackageName());
     }
 }
