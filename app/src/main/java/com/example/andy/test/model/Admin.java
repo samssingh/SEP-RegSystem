@@ -1,4 +1,4 @@
-package com.example.andy.test.Activities;
+package com.example.andy.test.model;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +9,7 @@ import android.widget.Button;
 import com.example.andy.test.view.Loginpage;
 import com.example.andy.test.R;
 
-public class AdminActivity extends AppCompatActivity {
+public class Admin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class AdminActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(AdminActivity.this, Loginpage.class));
+                startActivity(new Intent(Admin.this, Loginpage.class));
             }
         });
 

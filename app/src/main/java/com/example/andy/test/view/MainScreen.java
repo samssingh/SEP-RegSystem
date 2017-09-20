@@ -9,11 +9,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.andy.test.Activities.SurveyActivity.Q1Activity;
 import com.example.andy.test.R;
+import com.example.andy.test.model.Survey;
 
 public class MainScreen extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,17 +21,17 @@ public class MainScreen extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Button mainActBtn  = (Button) findViewById(R.id.mainActBtn);
+        Button button  = (Button) findViewById(R.id.button15);
 
-        mainActBtn.setOnClickListener(new View.OnClickListener(){
+        button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 startActivity(new Intent(MainScreen.this, MainActivity.class));
             }
         });
 
-        Button loginBtn  = (Button) findViewById(R.id.loginBtn);
-        loginBtn.setOnClickListener(new View.OnClickListener(){
+        Button login  = (Button) findViewById(R.id.button5);
+        login.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 startActivity(new Intent(MainScreen.this, Loginpage.class));
@@ -40,12 +39,12 @@ public class MainScreen extends AppCompatActivity {
         });
 
 
-        Button surveyBtn  = (Button) findViewById(R.id.surveyBtn);
+        Button survey  = (Button) findViewById(R.id.button12);
 
-        surveyBtn.setOnClickListener(new View.OnClickListener(){
+        survey.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(MainScreen.this, Q1Activity.class));
+                startActivity(new Intent(MainScreen.this, Survey.class));
             }
         });
 
@@ -57,7 +56,6 @@ public class MainScreen extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-
     }
 
 }

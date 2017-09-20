@@ -36,16 +36,20 @@ dependencies {
     compile 'com.android.support:design:25.+'
     compile 'com.google.firebase:firebase-auth:11.0.4'
 <<<<<<< HEAD
+<<<<<<< HEAD
     compile 'com.google.firebase:firebase-database:10.0.1'
 =======
     compile 'com.android.support:support-v4:25.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.firebaseui:firebase-ui:2.2.0'
 >>>>>>> 19dfea0f7def249cfca8b368fd7ae126bd7b6b18
+=======
+>>>>>>> parent of 9fa751c... survey activities
     testCompile 'junit:junit:4.12'
 }
 
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -53,4 +57,6 @@ dependencies {
 
 
 >>>>>>> 19dfea0f7def249cfca8b368fd7ae126bd7b6b18
+=======
+>>>>>>> parent of 9fa751c... survey activities
 apply plugin: 'com.google.gms.google-services'
