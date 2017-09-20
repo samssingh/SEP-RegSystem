@@ -26,6 +26,7 @@
         <activity android:name=".view.Loginpage" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <activity android:name=".Activities.AdminActivity" />
 
         <activity android:name=".Activities.SurveyActivity.Q1Activity" android:exported="true"/>
@@ -47,11 +48,16 @@
 =======
 =======
 >>>>>>> parent of 9fa751c... survey activities
+=======
+>>>>>>> parent of 9fa751c... survey activities
         <activity android:name=".model.Admin" />
         <activity android:name=".model.Survey" />
         <activity android:name=".model.Student" />
         <activity android:name=".model.Recruiter"></activity>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 9fa751c... survey activities
+=======
 >>>>>>> parent of 9fa751c... survey activities
 =======
 >>>>>>> parent of 9fa751c... survey activities
