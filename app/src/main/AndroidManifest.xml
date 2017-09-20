@@ -25,6 +25,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".view.Loginpage" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <activity android:name=".Activities.AdminActivity" />
 
         <activity android:name=".Activities.SurveyActivity.Q1Activity" android:exported="true"/>
@@ -44,10 +45,15 @@
         </activity>
 >>>>>>> 19dfea0f7def249cfca8b368fd7ae126bd7b6b18
 =======
+=======
+>>>>>>> parent of 9fa751c... survey activities
         <activity android:name=".model.Admin" />
         <activity android:name=".model.Survey" />
         <activity android:name=".model.Student" />
         <activity android:name=".model.Recruiter"></activity>
+<<<<<<< HEAD
+>>>>>>> parent of 9fa751c... survey activities
+=======
 >>>>>>> parent of 9fa751c... survey activities
     </application>
 

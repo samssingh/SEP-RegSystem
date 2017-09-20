@@ -11,11 +11,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
     tools:context="com.example.andy.test.Activities.AdminActivity">
 =======
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 >>>>>>> 19dfea0f7def249cfca8b368fd7ae126bd7b6b18
+=======
+    tools:context="com.example.andy.test.model.Admin">
+>>>>>>> parent of 9fa751c... survey activities
 =======
     tools:context="com.example.andy.test.model.Admin">
 >>>>>>> parent of 9fa751c... survey activities
