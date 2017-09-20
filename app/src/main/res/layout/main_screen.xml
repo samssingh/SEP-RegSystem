@@ -42,27 +42,34 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="144dp"
-            android:id="@+id/button12" />
+            android:id="@+id/surveyBtn" />
 
         <Button
             android:text="Back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button15"
+            android:id="@+id/mainActBtn"
             android:layout_alignParentBottom="true"
-            android:layout_toLeftOf="@+id/button13"
-            android:layout_toStartOf="@+id/button13"
             android:layout_marginBottom="32dp" />
 
         <Button
             android:text="Already have an account?"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/button12"
-            android:layout_alignLeft="@+id/button12"
-            android:layout_alignStart="@+id/button12"
             android:layout_marginTop="90dp"
-            android:id="@+id/button5" />
+            android:id="@+id/loginBtn" />
+
+        <Button
+            android:id="@+id/newSurveyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/surveyBtn"
+            android:layout_alignLeft="@+id/surveyBtn"
+            android:layout_alignRight="@+id/surveyBtn"
+            android:layout_alignStart="@+id/surveyBtn"
+            android:layout_below="@+id/surveyBtn"
+            android:layout_marginTop="14dp"
+            android:text="Complete a suvey" />
     </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

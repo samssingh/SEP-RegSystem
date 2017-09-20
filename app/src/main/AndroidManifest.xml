@@ -23,10 +23,13 @@
             android:label="@string/title_activity_main_screen"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".view.Loginpage" />
-        <activity android:name=".model.Admin" />
-        <activity android:name=".model.Survey" />
-        <activity android:name=".model.Student" />
-        <activity android:name=".model.Recruiter"></activity>
+        <activity android:name=".Activities.AdminActivity" />
+
+        <activity android:name=".Activities.SurveyActivity.Q1Activity" android:exported="true"/>
+        <activity android:name=".Activities.SurveyActivity.Q2Activity" android:exported="true"/>
+        <activity android:name=".Activities.SurveyActivity.Q3Activity" android:exported="true"/>
+        <activity android:name=".Activities.StudentActivity" />
+        <activity android:name=".Activities.RecruiterActivity"></activity>
     </application>
 
 </manifest>

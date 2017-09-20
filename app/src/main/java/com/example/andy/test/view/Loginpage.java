@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.andy.test.R;
-import com.example.andy.test.model.Admin;
-import com.example.andy.test.model.Recruiter;
-import com.example.andy.test.model.Student;
+import com.example.andy.test.Activities.AdminActivity;
+import com.example.andy.test.Activities.RecruiterActivity;
+import com.example.andy.test.Activities.StudentActivity;
 
 public class Loginpage extends AppCompatActivity {
 
@@ -23,7 +23,7 @@ public class Loginpage extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(Loginpage.this, Admin.class));
+                startActivity(new Intent(Loginpage.this, AdminActivity.class));
             }
         });
 
@@ -32,7 +32,7 @@ public class Loginpage extends AppCompatActivity {
         recruiter.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(Loginpage.this, Recruiter.class));
+                startActivity(new Intent(Loginpage.this, RecruiterActivity.class));
             }
         });
 
@@ -41,7 +41,7 @@ public class Loginpage extends AppCompatActivity {
         student.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(Loginpage.this, Student.class));
+                startActivity(new Intent(Loginpage.this, StudentActivity.class));
             }
         });
 

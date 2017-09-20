@@ -47,13 +47,13 @@
         android:layout_height="509dp">
 
         <TextView
-            android:text="This will be a welcome screen in the future"
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3"
-            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true" />
+            android:text="This will be a welcome screen in the future"
+            android:textSize="18sp" />
     </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>
